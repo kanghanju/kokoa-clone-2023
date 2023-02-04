@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day4 challenge</title>
+  </head>
+  <body>
+    <header>
+      <h1>Create An Account</h1>
+    </header>
+
+    <main>
+      <form>
+        <div>
+          <label id="first_Name">First Name</label>
+          <input
+            id="first_Name"
+            required
+            placeholder="First Name"
+            type="text"
+          />
+        </div>
+        <div>
+          <label id="Last_Name">Last Name</label>
+          <input id="Last_Name" required placeholder="Last Name" type="text" />
+        </div>
+        <div>
+          <label id="emial">Email</label>
+          <input id="email" required placeholder="Email" type="email" />
+        </div>
+        <div>
+          <label id="User_Name">User Name</label>
+          <input id="User_Name" required placeholder="User Name" type="text" />
+        </div>
+        <div>
+          <label id="password">Password</label>
+          <input
+            id="password"
+            required
+            placeholder="Password"
+            type="password"
+            minlength="10"
+          />
+        </div>
+        <div>
+          <label id="Birth_date">Birth Date</label>
+          <input id="Birth_date" type="range" min="0" max="11" />
+        </div>
+        <div>
+          <label id="mood">How happy are you?</label>
+          <input id="mood" type="text" />
+        </div>
+        <div>
+          <label id="fav_color">Last Name</label>
+          <input id="fav_color" type="color" />
+        </div>
+      </form>
+    </main>
+
+    <footer>
+      <input type="button" value="Create Account" />
+    </footer>
+  </body>
+</html>
