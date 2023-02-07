@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day7 challenge</title>
+    <style>
+      body {
+        background-color: azure;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
+      .first {
+        width: 520px;
+        height: 300px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .color-box {
+        width: 240px;
+        height: 300px;
+        border: 3px solid white;
+        position: relative;
+      }
+      .first:first-of-type > .color-box:first-child {
+        background-color: tomato;
+      }
+      .first:first-of-type > .color-box:last-child {
+        background-color: teal;
+      }
+      .first:last-of-type > .color-box:first-child {
+        background-color: burlywood;
+      }
+      .first:last-of-type > .color-box:last-child {
+        background-color: thistle;
+      }
+
+      .color-box > div {
+        width: 240px;
+        height: 100px;
+        background-color: white;
+        position: absolute;
+        top: 15px;
+      }
+
+      .information {
+        display: flex;
+        flex-direction: column;
+      }
+      .information > span:first-child {
+        padding: 15px 0px;
+        font-size: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>The Best Colors</h1>
+    <div class="first">
+      <div class="color-box">
+        <div class="information">
+          <span>Tomato</span>
+          <span>#FF6347</span>
+        </div>
+      </div>
+      <div class="color-box">
+        <div class="information">
+          <span>Teal</span>
+          <span>#008080</span>
+        </div>
+      </div>
+    </div>
+    <div class="first">
+      <div class="color-box">
+        <div class="information">
+          <span>Burlywood</span>
+          <span>#DEB887</span>
+        </div>
+      </div>
+      <div class="color-box">
+        <div class="information">
+          <span>Thistle</span>
+          <span>#D7BFD7</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
