@@ -1,34 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+/* css를 이용해 import하는게 html에 link를 여러줄 만드는 것보다 낫다 */
+@import "reset.css";
+@import "variables.css";
+/* Screens */
+@import "screens/login.css";
+/* Componenets */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
 
+/* styles.css파일은 다른 css파일을 추가하는 파일로 쓰자! */
+/* styles.css에는 모든 스크린에 적용될 수 있는 스타일을 써 놓는게 좋다 */
 body {
   font-family: "Open Sans", sans-serif;
-}
-/* 세 요소를 한 라인에 flex한다.  */
-.status-bar {
-  display: flex;
-  justify-content: center;
-}
-/* 크기를 다 33%인 div로 맞춰준다. */
-.status-bar__column {
-  width: 33%;
-}
-
-.status-bar__column:first-child span {
-  margin-right: 5px;
-}
-
-.status-bar__column:nth-child(2) {
-  display: flex;
-  justify-content: center;
-}
-.status-bar__column:nth-child(3) {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-/* 클래스 선택자가 공백으로 연결된 경우에는 status_bar내부 
-fa-battery-full에만 부분적으로 적용된다는 뜻이다 */
-.status-bar__column .fa-battery-full {
-  margin: 0px 5px;
 }
