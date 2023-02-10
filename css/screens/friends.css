@@ -1,0 +1,27 @@
+#friends-display-link {
+  text-align: center;
+  /* If we make it display block, the container will fill the page. */
+  display: block;
+  background-color: #fafafa;
+  padding: 15px 0px;
+  font-size: 16px;
+  position: relative;
+  margin-bottom: 5px;
+}
+#friends-display-link i {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+#friends-display-link > i:first-child {
+  position: absolute;
+  left: 95px;
+}
+#friends-display-link > i:last-child {
+  position: absolute;
+  right: 105px;
+  top: 24px;
+}
+
+.friends-screen {
+  padding: 0px var(--horizontal-space);
+}

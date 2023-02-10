@@ -27,6 +27,59 @@
         <i class="fa-solid fa-bolt"></i>
       </div>
     </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Friends</h1>
+      <div class="screen-header__icons">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-solid fa-music fa-lg"></i></span>
+        <span><i class="fa-solid fa-gear fa-lg"></i></span>
+      </div>
+    </header>
+
+    <a id="friends-display-link">
+      <i class="fa-solid fa-circle-info"></i>Friends' Names Display<i
+        class="fa-solid fa-chevron-right fa-xs"
+      ></i>
+    </a>
+
+    <main class="friends-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://w.namu.la/s/f01e6785997a3884b3900b3c5e7e5efc5b548285277fbfb547deedd315056af9e99433519e6ef88109be18199661152f9896110514e435baf87b9741fde89ec7f74cd49857b16d06bde08d2568f66121f95dca82b4a2d6100e6f294e047b106ba44088cb511a25d6af10e914fe5a7d23"
+            class="user-component__avatar user-commponent__avatar--xl"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Hanju</h4>
+            <!--<h6 class="user-commponent__subtitle">this text whatever</h6>-->
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Channel</span>
+          <i class="fa-solid fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://w.namu.la/s/f01e6785997a3884b3900b3c5e7e5efc5b548285277fbfb547deedd315056af9e99433519e6ef88109be18199661152f9896110514e435baf87b9741fde89ec7f74cd49857b16d06bde08d2568f66121f95dca82b4a2d6100e6f294e047b106ba44088cb511a25d6af10e914fe5a7d23"
+              class="user-component__avatar user-commponent__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Channel</h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span>2</span>
+            <i class="fa-solid fa-chevron-right fa-xs"></i>
+          </div>
+        </div>
+      </div>
+    </main>
+
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
@@ -35,8 +88,9 @@
           ></a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="#"
-            ><i class="fa-regular fa-comment fa-2x"></i
+          <a class="nav__link" href="#">
+            <span class="nav__notification">1</span>
+            <i class="fa-regular fa-comment fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn">
@@ -45,8 +99,9 @@
           ></a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="#"
-            ><i class="fa-solid fa-ellipsis fa-2x"></i
+          <a class="nav__link" href="#">
+            <span class="nav__add"></span>
+            <i class="fa-solid fa-ellipsis fa-2x"></i
           ></a>
         </li>
       </ul>
