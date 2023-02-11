@@ -1,0 +1,220 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.screen {
+  width: 350px;
+  height: 650px;
+  box-shadow: 1px 1px 30px gainsboro;
+  border-radius: 5%;
+}
+
+.status-bar {
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile {
+  width: 100%;
+  height: 250px;
+}
+
+.profile > img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 20px 40%;
+  box-shadow: 1px 1px 30px -5px gainsboro;
+}
+
+.profile h3 {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+}
+
+.profile h5 {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  color: grey;
+}
+
+.suffle-and-like {
+  display: flex;
+  justify-content: center;
+}
+
+.suffle-and-like button {
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  margin: 0px 10px;
+}
+
+.suffle-and-like button:first-child {
+  background-color: black;
+  color: white;
+}
+
+.suffle-and-like button:last-child {
+  background-color: white;
+  color: grey;
+  border: none;
+  box-shadow: 1px 1px 6px 1px gainsboro;
+}
+
+.suffle-and-like button:last-child > i {
+  color: red;
+  margin-right: 5px;
+}
+
+.music-list {
+  width: 100%;
+  height: 280px;
+}
+
+.music-list__music {
+  width: 300px;
+  height: 60px;
+
+  margin: 5px 25px;
+  border-radius: 20px;
+  display: flex;
+}
+
+.music-list__music img {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  margin: 10px 10px;
+}
+
+.music-list__music__info {
+  width: 200px;
+  height: 50px;
+}
+
+.music-list__music__info h6 {
+  color: grey;
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+.music-list__music__info h5 {
+  margin: 0px;
+}
+
+.music-list__music i {
+  margin: 20px;
+  color: grey;
+}
+
+.music-list__music:nth-child(2) {
+  box-shadow: 1px 1px 6px 1px gainsboro;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.play-music {
+  background-color: black;
+  width: 80%;
+  border-radius: 30px;
+  height: 50px;
+  display: flex;
+}
+
+.play-music__now > h6 {
+  color: gainsboro;
+  margin: 5px 20px;
+}
+
+.play-music__now > h5 {
+  color: white;
+  margin: 0px 20px;
+}
+
+.play-music div {
+  width: 200px;
+  height: 50px;
+}
+.play-music__icon i {
+  color: white;
+  margin: 15px;
+}
+
+.screen > main {
+  width: 100%;
+  height: 400px;
+}
+
+.screen > main > img {
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px -5px black;
+  margin: 30px 50px;
+}
+
+.screen > main > h3 {
+  margin: 0px;
+  text-align: center;
+}
+.screen > main > h5 {
+  margin: 10px;
+  text-align: center;
+  color: grey;
+}
+
+.playlist-bar {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+  box-sizing: border-box;
+  color: grey;
+}
+
+#playtime {
+  width: 90%;
+  margin: 10px 20px;
+}
+
+.button-icons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 50px;
+  margin-top: 60px;
+  align-items: center;
+}
+
+.button-icons div {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px grey;
+}
+
+.button-icons div i {
+  color: white;
+}
