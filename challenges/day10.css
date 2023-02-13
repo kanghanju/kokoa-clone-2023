@@ -151,11 +151,14 @@ form button {
   height: 100px;
   display: flex;
 }
+
+.topAdventures_column {
+  margin-left: 10px;
+}
 .book-list {
   width: 60px;
   height: 90px;
   border-radius: 5%;
-  margin-left: 30px;
 }
 
 .popularAuthors {
@@ -168,4 +171,12 @@ form button {
   height: 100px;
   border-radius: 5%;
   margin-left: 10px;
+}
+
+.stars-bar {
+  color: #f7e600;
+}
+
+.stars-bar:nth-child(2) i:last-child {
+  color: rgb(220, 219, 219);
 }
